@@ -1,5 +1,8 @@
 # curl -I https://berawadigital-ctrl.github.io/demo-cazorla-rural/ (2026-10-28T10:11:05+01:00)
-HTTP/2 200 
+# NOTA (ronda Codex 1, F-002): este fichero es la salida de curl -I tal como se capturó, con dos cambios de formato que no tocan el contenido de las cabeceras:
+# se quitaron los retornos de carro (CR, fin de línea CRLF propio de HTTP) y los espacios finales de cada línea, y la línea en blanco final, para que `git diff --check` quede limpio.
+# Ningún nombre ni valor de cabecera se ha modificado. Original (con CR): SHA-256 e0aecd873894aaa0da86ffae08cd95b93766aa9cbc4c22d77b781926541ea73c (commit a78a2ee).
+HTTP/2 200
 server: GitHub.com
 content-type: text/html; charset=utf-8
 last-modified: Wed, 28 Oct 2026 08:38:13 GMT
@@ -25,7 +28,7 @@ content-length: 35145
 
 
 # curl -I https://berawadigital-ctrl.github.io/demo-cazorla-rural/img/hero.webp
-HTTP/2 200 
+HTTP/2 200
 server: GitHub.com
 content-type: image/webp
 last-modified: Wed, 28 Oct 2026 08:38:13 GMT
@@ -51,7 +54,7 @@ content-length: 166316
 
 
 # curl -I https://berawadigital-ctrl.github.io/demo-cazorla-rural/robots.txt
-HTTP/2 200 
+HTTP/2 200
 server: GitHub.com
 content-type: text/plain; charset=utf-8
 last-modified: Wed, 28 Oct 2026 08:38:13 GMT
@@ -76,7 +79,7 @@ x-fastly-request-id: 0b1ac4c7e2419789d42024e31de2c2ee13957418
 content-length: 26
 
 # curl -I https://berawadigital-ctrl.github.io/demo-cazorla-rural/no-existe (404)
-HTTP/2 404 
+HTTP/2 404
 server: GitHub.com
 content-type: text/html; charset=utf-8
 access-control-allow-origin: *
@@ -97,4 +100,3 @@ x-timer: S1793178665.456812,VS0,VE20
 vary: Accept-Encoding
 x-fastly-request-id: c70a8df451f6b57729d6d63dda2af5f3bf4bf54a
 content-length: 9379
-
