@@ -1,9 +1,10 @@
 """Contraste de los nodos que axe marca como 'incompletos' (texto sobre imagen): se muestrea el fondo real con el texto oculto."""
 import sys,json,io
+from _rutas import axe_js,lanzar_navegador
 from playwright.sync_api import sync_playwright
 from PIL import Image
 url,outf=sys.argv[1],sys.argv[2]
-AXE=open('/workspace/tools/node_modules/axe-core/axe.min.js').read()
+AXE=axe_js()
 def lum(c):
     f=lambda v:(v/255/12.92) if v/255<=0.03928 else (((v/255+0.055)/1.055)**2.4)
     return 0.2126*f(c[0])+0.7152*f(c[1])+0.0722*f(c[2])
@@ -11,7 +12,7 @@ def cr(a,b):
     la,lb=lum(a),lum(b);return (max(la,lb)+0.05)/(min(la,lb)+0.05)
 res=[];fails=[]
 with sync_playwright() as p:
-    b=p.chromium.launch(executable_path='/usr/bin/google-chrome',args=['--no-proxy-server','--no-sandbox'])
+    b=lanzar_navegador(p)
     for vp,(w,h) in dict(desktop=(1280,900),movil=(375,800)).items():
       for l in ['es','ca','en','fr']:
         pg=b.new_context(viewport=dict(width=w,height=h),bypass_csp=True).new_page();pg.goto(f'{url}?lang={l}',wait_until='load');pg.wait_for_timeout(300)

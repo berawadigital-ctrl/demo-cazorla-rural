@@ -1,8 +1,11 @@
+"""Genera asset_manifest.json, evidence/assets/*.txt y project.json. SOLO PROCEDENCIA: necesita el material crudo (fotos originales de Pexels y assets.json)
+que no esta en el repo: BERAWA_RAW=carpeta con assets.json y assets-raw/. No hace falta para verificar la demo ni para regenerar app.js."""
 import json,hashlib,os,glob,datetime,sys
-sys.path.insert(0,'/workspace/agentes/webs/cazorla/gen')
+from _rutas import ROOT,entrada_externa
 from knowledge_cazorla import KB
-R='/workspace/agentes/webs/cazorla/repo'
-A=json.load(open('/workspace/agentes/webs/cazorla/assets.json'))
+R=str(ROOT)
+RAWDIR=entrada_externa('BERAWA_RAW','la carpeta con assets.json y assets-raw/ (fotos originales)')
+A=json.load(open(RAWDIR/'assets.json'))
 NOW=datetime.datetime.now().astimezone().isoformat(timespec='seconds')
 CAP={ # título y descripción de la ficha de Pexels, leídos con la herramienta de lectura web el 28/10/2026
 'hero':('Scenic River in Cazorla Natural Park, Spain','Stunning view of a tranquil river surrounded by lush greenery in Cazorla, Andalucía, Spain.'),
@@ -25,7 +28,7 @@ os.makedirs(R+'/berawa/evidence/assets',exist_ok=True)
 assets=[];sha=lambda p:hashlib.sha256(open(p,'rb').read()).hexdigest()
 for k,cap in CAP.items():
     v=A[k];pid=v[0];page=f'https://www.pexels.com/photo/{v[1]}-{pid}/'
-    raw=f'/workspace/agentes/webs/cazorla/assets-raw/{k}.jpg'
+    raw=str(RAWDIR/'assets-raw'/f'{k}.jpg')
     ev=f'berawa/evidence/assets/{k}.txt'
     open(R+'/'+ev,'w').write(f"Ficha de Pexels leída el {NOW} (herramienta de lectura web)\nURL: {page}\nTítulo: {cap[0]}\nAutor mostrado: {v[2]}\nDescripción de la ficha: {cap[1]}\nLicencia: {LIC}\nDescarga: https://images.pexels.com/photos/{pid}/pexels-photo-{pid}.jpeg?w=2000 (HTTP 200; sha256 del original {sha(raw)} verificado con una segunda descarga idéntica)\nImagen ilustrativa: no muestra el establecimiento.\n")
     for suf in ('','-m'):

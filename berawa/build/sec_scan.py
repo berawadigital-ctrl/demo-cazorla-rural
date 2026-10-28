@@ -1,5 +1,6 @@
 """Revisión estática + prueba de que la CSP por meta se aplica. Uso: sec_scan.py DIR URL salida.json"""
 import sys,re,json,os
+from _rutas import lanzar_navegador
 from playwright.sync_api import sync_playwright
 d,url,outf=sys.argv[1:4]
 H=open(d+'/index.html').read();JS=open(d+'/app.js').read() if os.path.exists(d+'/app.js') else ''
@@ -24,7 +25,7 @@ c('S10 sin secretos/claves/tokens en el código',not re.search(r'(?i)api[_-]?key
 res['url_externas_en_js']=sorted(set(re.findall(r'https?://[^/\'"]+',JS)))
 # CSP efectiva en el navegador
 with sync_playwright() as p:
-    b=p.chromium.launch(executable_path='/usr/bin/google-chrome',args=['--no-proxy-server','--no-sandbox']);pg=b.new_page()
+    b=lanzar_navegador(p);pg=b.new_page()
     pg.add_init_script("window.__v=[];document.addEventListener('securitypolicyviolation',e=>window.__v.push(e.violatedDirective))")
     pg.goto(url,wait_until='load');pg.wait_for_timeout(300)
     pg.evaluate("()=>{const s=document.createElement('script');s.textContent='window.__x=1';document.body.appendChild(s);const i=document.createElement('img');i.src='https://example.invalid/x.png';document.body.appendChild(i);const e=document.createElement('div');e.setAttribute('style','color:red');document.body.appendChild(e);try{fetch('https://example.invalid/')}catch(e){}}")

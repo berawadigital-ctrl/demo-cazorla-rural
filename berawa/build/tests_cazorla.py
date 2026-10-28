@@ -1,8 +1,8 @@
 """Pruebas funcionales de la demo: i18n 4 idiomas + chatbot (sin red externa). Uso: tests_cazorla.py URL salida.json [--kb]"""
 import sys,json,re
+from _rutas import lanzar_navegador
 from playwright.sync_api import sync_playwright
 url,outf=sys.argv[1],sys.argv[2];KB='--kb' in sys.argv
-sys.path.insert(0,'/workspace/agentes/webs/cazorla/gen')
 from knowledge_cazorla import KB as K
 ENT={e['id']:e for e in K['entries']}
 Q={ # (pregunta, id esperado o None=desconocida)
@@ -14,7 +14,7 @@ res=dict(url=url,langs={},fail=[])
 def chk(c,msg):
     if not c: res['fail'].append(msg)
 with sync_playwright() as p:
-    b=p.chromium.launch(executable_path='/usr/bin/google-chrome',args=['--no-proxy-server','--no-sandbox'])
+    b=lanzar_navegador(p)
     pg=b.new_page(viewport=dict(width=1280,height=900))
     errs=[];pg.on('pageerror',lambda e:errs.append(str(e)));pg.on('console',lambda m:errs.append(m.text) if m.type=='error' else None)
     reqs=[];pg.on('request',lambda r:reqs.append(r.url))

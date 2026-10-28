@@ -1,6 +1,6 @@
 """Generador de la demo Cazorla Rural (fix/codex-1). Etapas acumulativas: kb, a11y, sec, v1."""
 import sys,json,html,os,re,shutil,urllib.parse as up
-sys.path.insert(0,'/workspace/agentes/webs/factory/webfactory')
+sys.path.insert(0,os.path.join(os.path.dirname(os.path.abspath(__file__)),'vendor','webfactory'))   # copia de la plantilla base (webfactory) incluida en el repo
 import build as B
 LANGS=['es','ca','en','fr']
 DEMO={'es':'Propuesta de rediseño · demo','ca':'Proposta de redisseny · demo','en':'Redesign proposal · demo','fr':'Proposition de refonte · démo'}

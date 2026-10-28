@@ -1,9 +1,10 @@
 """axe-core + teclado. Uso: a11y_test.py URL salida.json"""
 import sys,json
+from _rutas import axe_js,axe_version,lanzar_navegador
 from playwright.sync_api import sync_playwright
 url,outf=sys.argv[1],sys.argv[2]
-AXE=open('/workspace/tools/node_modules/axe-core/axe.min.js').read()
-ver=json.load(open('/workspace/tools/node_modules/axe-core/package.json'))['version']
+AXE=axe_js()
+ver=axe_version()
 TAGS=['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa','best-practice']
 res=dict(axe_version=ver,tags=TAGS,url=url,runs=[],keyboard=[],fail=[])
 def axe(pg,label):
@@ -15,7 +16,7 @@ def axe(pg,label):
     res['runs'].append(dict(estado=label,violaciones=v,incompletas=inc,pasan=len(r['passes'])))
     for x in v: res['fail'].append(f"{label}: {x['id']} ({x['impact']}) x{x['n']}")
 with sync_playwright() as p:
-    b=p.chromium.launch(executable_path='/usr/bin/google-chrome',args=['--no-proxy-server','--no-sandbox'])
+    b=lanzar_navegador(p)
     for vp,(w,h) in dict(desktop=(1280,900),movil=(375,800)).items():
         for l in ['es','ca','en','fr']:
             ctx=b.new_context(viewport=dict(width=w,height=h),locale=l,bypass_csp=True);pg=ctx.new_page()
