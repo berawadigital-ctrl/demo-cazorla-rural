@@ -160,11 +160,47 @@
    "sources": [
     {
      "url": "https://www.cazorlarural.com/",
-     "quote": "cocina equipada, calefacción y aire acondicionado, wifi"
+     "quote": "todas nuestras casas rurales cuentan con todos lo imprescindible: cocina equipada, calefacción y aire acondicionado, wifi, bañera de hidromasaje y chimenea"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadalentin/",
+     "quote": "bañera de hidromasaje"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadiana/",
+     "quote": "bañera de hidromasaje"
+    },
+    {
+     "url": "https://www.cazorlarural.com/guadalquivir/",
+     "quote": "bañera de hidromasaje"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-gualay/",
+     "quote": "bañera de hidromasaje"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-cabanas-2/",
+     "quote": "bañera de hidromasaje"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-gilillo/",
+     "quote": "bañera de hidromasaje"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-rayal/",
+     "quote": "bañera de hidromasaje"
     },
     {
      "url": "https://www.cazorlarural.com/casa-rural-villalta/",
-     "quote": "Salón – Cocina : sofá, mesita, mesa de comedor"
+     "quote": "bañera de hidromasaje"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-villalta/",
+     "quote": "WiFi gratuito"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-villalta/",
+     "quote": "!himenea"
     }
    ],
    "cta": false

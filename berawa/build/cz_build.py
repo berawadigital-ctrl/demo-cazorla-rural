@@ -157,7 +157,7 @@ def build(d,kb,out,imgs,alts,stage):
     ghost=f'<a class="btn ghost{" ac-t" if sec else ""}"'+cls_ac+f' href="{maps}" target="_blank" rel="{rel}" data-t="map">{html.escape(es["map"])}</a>'
     page=f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 {head_extra}<title>{html.escape(es["title"])}</title><meta name="robots" content="noindex,nofollow"><link rel="icon" href="data:,"><meta name="description" content="{html.escape(es["hero_s"])}">
-<link rel="preload" href="fonts/cormorant.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" as="image" href="img/{imgs["hero"]}-m.webp" imagesrcset="img/{imgs["hero"]}-m.webp 800w, img/{imgs["hero"]}.webp 1600w" imagesizes="100vw">
+<link rel="preload" as="image" href="img/{imgs["hero"]}-m.webp" imagesrcset="img/{imgs["hero"]}-m.webp 800w, img/{imgs["hero"]}.webp 1600w" imagesizes="100vw">
 {css_tag}</head><body>
 {skip}{notice if not a11y else ''}
 <header>{notice if a11y else ''}<div class="wrap nav"><a class="brand" href="#top">{html.escape(d["name"])}</a><nav class="links"{navattr}><a href="#rooms" data-t="nav_rooms">{html.escape(es["nav_rooms"])}</a><a href="#services" data-t="nav_svc">{html.escape(es["nav_svc"])}</a><a href="#gallery" data-t="nav_gal">{html.escape(es["nav_gal"])}</a><a href="#contact" data-t="nav_loc">{html.escape(es["nav_loc"])}</a></nav>

@@ -11,6 +11,10 @@ for e in KB['entries']:
     for s in e['sources']:
         p=pages.get(s['url'])
         if p is None: print('SIN PAGINA',e['id'],s['url']);bad+=1;continue
+        q=s['quote']
+        if q.startswith('!'):
+            if q[1:] in p: print('AUSENCIA FALSA',e['id'],s['url'],q);bad+=1
+            continue
         if re.sub(r'\s+',' ',s['quote']) not in p: print('CITA NO ENCONTRADA',e['id'],s['url'],'|',s['quote'][:70]);bad+=1
 print('entradas',len(KB['entries']),'fallos',bad)
 # cifras de las respuestas deben aparecer en alguna fuente citada de la entrada
