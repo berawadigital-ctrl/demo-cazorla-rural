@@ -1,0 +1,896 @@
+{
+ "schema": "berawa-knowledge/1",
+ "project": "demo-cazorla-rural",
+ "source_site": "https://www.cazorlarural.com/",
+ "source_read_at": "2026-10-27T07:09:00+01:00",
+ "note": "Respuestas solo con datos publicados en cazorlarural.com. Sin coincidencia: el asistente dice que no dispone de la información y ofrece contacto.",
+ "entries": [
+  {
+   "id": "K01",
+   "topic": "casas",
+   "keys": {
+    "es": [
+     "casas",
+     " casa ",
+     "cuantas",
+     "habitacion",
+     "dormitorio",
+     "duplex",
+     "cueva",
+     "alojamiento",
+     "capacidad"
+    ],
+    "ca": [
+     "cases",
+     " casa ",
+     "quantes",
+     "habitacio",
+     "dormitori",
+     "duplex",
+     " cova ",
+     "allotjament",
+     "capacitat"
+    ],
+    "en": [
+     "cottage",
+     " house ",
+     "how many",
+     "bedroom",
+     "duplex",
+     " cave ",
+     "accommodation",
+     "capacity"
+    ],
+    "fr": [
+     "gite",
+     "maison",
+     "combien de",
+     "chambre",
+     "duplex",
+     "troglo",
+     "hebergement",
+     "capacite"
+    ]
+   },
+   "a": {
+    "es": "Hay 8 casas rurales. Guadalentín, Guadiana, Guadalquivir y Gilillo son dúplex para 2 personas; Villalta es una casa tipo cueva para 2; Gualay, Cabañas y Rayal tienen 2 habitaciones.",
+    "ca": "Hi ha 8 cases rurals. Guadalentín, Guadiana, Guadalquivir i Gilillo són dúplex per a 2 persones; Villalta és una casa tipus cova per a 2; Gualay, Cabañas i Rayal tenen 2 habitacions.",
+    "en": "There are 8 cottages. Guadalentín, Guadiana, Guadalquivir and Gilillo are duplexes for 2; Villalta is a cave-style house for 2; Gualay, Cabañas and Rayal have 2 bedrooms.",
+    "fr": "Il y a 8 gîtes. Guadalentín, Guadiana, Guadalquivir et Gilillo sont des duplex pour 2 ; Villalta est une maison troglodyte pour 2 ; Gualay, Cabañas et Rayal ont 2 chambres."
+   },
+   "sources": [
+    {
+     "url": "https://www.cazorlarural.com/",
+     "quote": "8 estancias románticas pensadas para ti"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadalentin/",
+     "quote": "Casa rural dúplex ambientada en tonos verdes"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadiana/",
+     "quote": "Casa rural dúplex ambientado en tonos naranjas"
+    },
+    {
+     "url": "https://www.cazorlarural.com/guadalquivir/",
+     "quote": "Una casa rural tipo dúplex pensada para dos personas"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-gilillo/",
+     "quote": "Diseñado tipo dúplex y para dos personas"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-villalta/",
+     "quote": "tipo casa cueva"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-gualay/",
+     "quote": "Consta de dos habitaciones con cama de matrimonio"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-cabanas-2/",
+     "quote": "Apartamento rural de dos habitaciones"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-rayal/",
+     "quote": "Cuenta con dos habitaciones"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K02",
+   "topic": "equipamiento",
+   "keys": {
+    "es": [
+     "equip",
+     "wifi",
+     "hidromasaje",
+     "jacuzzi",
+     "chimenea",
+     "calefaccion",
+     "aire acondicionado",
+     "cocina",
+     "servicios",
+     "terraza"
+    ],
+    "ca": [
+     "equip",
+     "wifi",
+     "hidromassatge",
+     "jacuzzi",
+     "xemeneia",
+     "calefaccio",
+     "aire condicionat",
+     "cuina",
+     "serveis",
+     "terrassa"
+    ],
+    "en": [
+     "equip",
+     "wifi",
+     "whirlpool",
+     "jacuzzi",
+     "fireplace",
+     "heating",
+     "air conditioning",
+     "kitchen",
+     "amenities",
+     "terrace"
+    ],
+    "fr": [
+     "equip",
+     "wifi",
+     "balneo",
+     "jacuzzi",
+     "cheminee",
+     "chauffage",
+     "climatisation",
+     "cuisine",
+     "services",
+     "terrasse"
+    ]
+   },
+   "a": {
+    "es": "Todas las casas tienen cocina equipada, calefacción, aire acondicionado, WiFi gratuito y bañera de hidromasaje. Su web indica chimenea en todas, aunque la ficha de Villalta (casa cueva) no la detalla: consúltalo antes de reservar.",
+    "ca": "Totes les cases tenen cuina equipada, calefacció, aire condicionat, WiFi gratuït i banyera d'hidromassatge. La seva web indica xemeneia a totes, tot i que la fitxa de Villalta (casa cova) no la detalla: consulta-ho abans de reservar.",
+    "en": "All cottages have an equipped kitchen, heating, air conditioning, free WiFi and a whirlpool bath. Their website lists a fireplace in all of them, although the Villalta (cave house) page does not detail it: please check before booking.",
+    "fr": "Tous les gîtes ont cuisine équipée, chauffage, climatisation, WiFi gratuit et baignoire balnéo. Leur site indique une cheminée partout, mais la fiche de Villalta (maison troglodyte) ne la détaille pas : vérifiez avant de réserver."
+   },
+   "sources": [
+    {
+     "url": "https://www.cazorlarural.com/",
+     "quote": "todas nuestras casas rurales cuentan con todos lo imprescindible: cocina equipada, calefacción y aire acondicionado, wifi, bañera de hidromasaje y chimenea"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadalentin/",
+     "quote": "bañera de hidromasaje"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadiana/",
+     "quote": "bañera de hidromasaje"
+    },
+    {
+     "url": "https://www.cazorlarural.com/guadalquivir/",
+     "quote": "bañera de hidromasaje"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-gualay/",
+     "quote": "bañera de hidromasaje"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-cabanas-2/",
+     "quote": "bañera de hidromasaje"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-gilillo/",
+     "quote": "bañera de hidromasaje"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-rayal/",
+     "quote": "bañera de hidromasaje"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-villalta/",
+     "quote": "bañera de hidromasaje"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-villalta/",
+     "quote": "WiFi gratuito"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-villalta/",
+     "quote": "!himenea"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K03",
+   "topic": "mascotas",
+   "keys": {
+    "es": [
+     "mascota",
+     "perro",
+     " gato ",
+     "animal"
+    ],
+    "ca": [
+     "mascot",
+     " gos ",
+     " gat ",
+     "animal"
+    ],
+    "en": [
+     " pet",
+     " dog ",
+     " cat ",
+     "animal"
+    ],
+    "fr": [
+     "animaux",
+     "animal",
+     " chien ",
+     " chat "
+    ]
+   },
+   "a": {
+    "es": "No se admiten mascotas (lo indica la ficha de cada casa).",
+    "ca": "No s'admeten mascotes (ho indica la fitxa de cada casa).",
+    "en": "Pets are not allowed (stated on each cottage page).",
+    "fr": "Les animaux ne sont pas admis (indiqué sur la fiche de chaque gîte)."
+   },
+   "sources": [
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadalentin/",
+     "quote": "No se admiten mascotas"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadiana/",
+     "quote": "No se admiten mascotas"
+    },
+    {
+     "url": "https://www.cazorlarural.com/guadalquivir/",
+     "quote": "No se admiten mascotas"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-gualay/",
+     "quote": "No se admiten mascotas"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-cabanas-2/",
+     "quote": "No se admiten mascotas"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-gilillo/",
+     "quote": "No se admiten mascotas"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-rayal/",
+     "quote": "No se admiten mascotas"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-villalta/",
+     "quote": "No se admiten mascotas"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K04",
+   "topic": "precios",
+   "keys": {
+    "es": [
+     "precio",
+     "tarifa",
+     "cuesta",
+     "cuanto",
+     "coste",
+     "euros",
+     "barato",
+     "noche"
+    ],
+    "ca": [
+     "preu",
+     "tarifa",
+     "costa",
+     "quant",
+     "cost",
+     "euros",
+     "barat",
+     "nit"
+    ],
+    "en": [
+     "price",
+     "rate",
+     "cost",
+     "how much",
+     "euro",
+     "cheap",
+     "night",
+     " fee"
+    ],
+    "fr": [
+     "prix",
+     "tarif",
+     "coute",
+     "combien",
+     "cout",
+     "euro",
+     "nuit"
+    ]
+   },
+   "a": {
+    "es": "Precios «desde», según su web (IVA 10 % incluido): Guadalentín, Guadiana y Guadalquivir, 88 € en temporada baja y 99 € en alta; Gilillo y Villalta, 99 € y 119 €; Gualay, Cabañas y Rayal, 99 € y 119 € para 2 personas y 119 € y 150 € para 4 (según su web, 27/10/2026). Confírmalo al reservar.",
+    "ca": "Preus «des de», segons la seva web (IVA 10 % inclòs): Guadalentín, Guadiana i Guadalquivir, 88 € en temporada baixa i 99 € en alta; Gilillo i Villalta, 99 € i 119 €; Gualay, Cabañas i Rayal, 99 € i 119 € per a 2 persones i 119 € i 150 € per a 4 (segons la seva web, 27/10/2026). Confirma-ho en reservar.",
+    "en": "\"From\" prices according to their website (10% VAT included): Guadalentín, Guadiana and Guadalquivir, €88 low season and €99 high season; Gilillo and Villalta, €99 and €119; Gualay, Cabañas and Rayal, €99 and €119 for 2 guests and €119 and €150 for 4 (according to their website, 27/10/2026). Confirm it when you book.",
+    "fr": "Prix « à partir de » selon leur site (TVA 10 % incluse) : Guadalentín, Guadiana et Guadalquivir, 88 € en basse saison et 99 € en haute saison ; Gilillo et Villalta, 99 € et 119 € ; Gualay, Cabañas et Rayal, 99 € et 119 € pour 2 personnes et 119 € et 150 € pour 4 (selon leur site, 27/10/2026). Confirmez-le lors de la réservation."
+   },
+   "sources": [
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadalentin/",
+     "quote": "Precio desde: Temporada baja 88€ Temporada Alta 99€"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadiana/",
+     "quote": "Precio desde: Temporada baja 88€ Temporada Alta 99€"
+    },
+    {
+     "url": "https://www.cazorlarural.com/guadalquivir/",
+     "quote": "Precio desde: Temporada baja 88€ Temporada Alta 99€"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-gilillo/",
+     "quote": "Precio desde: Temporada baja 99 € Temporada Alta 119 €"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-villalta/",
+     "quote": "Precio desde: Temporada baja 99 € Temporada Alta 119 €"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-gualay/",
+     "quote": "Precio para 4 personas: Temporada baja 119€ Temporada Alta 150€"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-cabanas-2/",
+     "quote": "Para 4 personas, precio desde: Temporada baja 119 € Temporada Alta 150 €"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-rayal/",
+     "quote": "Para 4 personas, precio desde: Temporada baja: 119 € Temporada Alta 150 €"
+    }
+   ],
+   "cta": true
+  },
+  {
+   "id": "K05",
+   "topic": "temporada",
+   "keys": {
+    "es": [
+     "temporada",
+     "navidad",
+     "semana santa",
+     "festivo",
+     "puente"
+    ],
+    "ca": [
+     "temporada",
+     "nadal",
+     "setmana santa",
+     "festiu",
+     " pont "
+    ],
+    "en": [
+     "season",
+     "christmas",
+     "easter",
+     "holiday"
+    ],
+    "fr": [
+     "saison",
+     "noel",
+     "paques",
+     "ferie",
+     " pont "
+    ]
+   },
+   "a": {
+    "es": "Temporada alta: Navidad, Semana Santa, puentes, festivos, julio y agosto. Temporada baja: el resto del año.",
+    "ca": "Temporada alta: Nadal, Setmana Santa, ponts, festius, juliol i agost. Temporada baixa: la resta de l'any.",
+    "en": "High season: Christmas, Easter, long weekends, public holidays, July and August. Low season: the rest of the year.",
+    "fr": "Haute saison : Noël, Pâques, ponts, jours fériés, juillet et août. Basse saison : le reste de l'année."
+   },
+   "sources": [
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadalentin/",
+     "quote": "Temporada alta: navidades, semana santa, puentes, días festivos, julio, agosto. Temporada baja: resto del año"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K06",
+   "topic": "extras",
+   "keys": {
+    "es": [
+     "extra",
+     "desayuno",
+     "bienvenida",
+     "limpieza",
+     "late check",
+     "salida tard",
+     "toalla"
+    ],
+    "ca": [
+     "extra",
+     "esmorzar",
+     "benvinguda",
+     "neteja",
+     "late check",
+     "sortida tard",
+     "tovallol"
+    ],
+    "en": [
+     "extra",
+     "breakfast",
+     "welcome",
+     "cleaning",
+     "late check",
+     "late checkout",
+     "towel"
+    ],
+    "fr": [
+     "extra",
+     "petit-dejeuner",
+     "petit dejeuner",
+     "bienvenue",
+     "menage",
+     "late check",
+     "depart tardif",
+     "serviette"
+    ]
+   },
+   "a": {
+    "es": "Extras publicados: bienvenida romántica 30 €, limpieza (1 h) 20 €, desayuno para la pareja de 14 a 30 € según la casa, y salida tardía hasta las 19:00 desde 45 € (75 € en Gualay), sujeta a disponibilidad (según su web, 27/10/2026). Confírmalo al reservar.",
+    "ca": "Extres publicats: benvinguda romàntica 30 €, neteja (1 h) 20 €, esmorzar per a la parella de 14 a 30 € segons la casa, i sortida tardana fins a les 19:00 des de 45 € (75 € a Gualay), subjecta a disponibilitat (segons la seva web, 27/10/2026). Confirma-ho en reservar.",
+    "en": "Published extras: romantic welcome €30, cleaning (1 h) €20, breakfast for two €14 to €30 depending on the cottage, and late check-out until 19:00 from €45 (€75 at Gualay), subject to availability (according to their website, 27/10/2026). Confirm it when you book.",
+    "fr": "Suppléments publiés : accueil romantique 30 €, ménage (1 h) 20 €, petit-déjeuner pour deux de 14 à 30 € selon le gîte, et départ tardif jusqu'à 19 h à partir de 45 € (75 € à Gualay), selon disponibilité (selon leur site, 27/10/2026). Confirmez-le lors de la réservation."
+   },
+   "sources": [
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadalentin/",
+     "quote": "Bienvenida romántica 30€ Limpieza (1h) 20€"
+    },
+    {
+     "url": "https://www.cazorlarural.com/guadalquivir/",
+     "quote": "Desayuno: 14€ pareja"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadiana/",
+     "quote": "Desayuno: 30 € pareja"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-gualay/",
+     "quote": "Late check out (dejar la casa rural hasta las 19:00 horas): 75€"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-gilillo/",
+     "quote": "Late check out (dejar la casa rural hasta las 19:00 horas): 45€ (siempre que haya disponibilidad)"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K07",
+   "topic": "estancias largas",
+   "keys": {
+    "es": [
+     "larga",
+     "noches gratis",
+     "descuento",
+     "oferta",
+     "promocion"
+    ],
+    "ca": [
+     "llarga",
+     "nits gratis",
+     "descompte",
+     "oferta",
+     "promocio"
+    ],
+    "en": [
+     "long stay",
+     "free night",
+     "discount",
+     "offer",
+     "promotion"
+    ],
+    "fr": [
+     "long sejour",
+     "nuit gratuite",
+     "reduction",
+     "offre",
+     "promotion"
+    ]
+   },
+   "a": {
+    "es": "Estancias largas: de domingo a viernes, a partir de 4 noches, 1 gratis.",
+    "ca": "Estades llargues: de diumenge a divendres, a partir de 4 nits, 1 de gratuïta.",
+    "en": "Long stays: Sunday to Friday, from 4 nights, 1 night free.",
+    "fr": "Longs séjours : du dimanche au vendredi, à partir de 4 nuits, 1 nuit offerte."
+   },
+   "sources": [
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadalentin/",
+     "quote": "Largas estancias: de domingo a Viernes, a partir de 4 noches, 1 gratis"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-villalta/",
+     "quote": "Largas estancias: de domingo a Viernes, a partir de 4 noches, 1 gratis"
+    }
+   ],
+   "cta": true
+  },
+  {
+   "id": "K08",
+   "topic": "reservar",
+   "keys": {
+    "es": [
+     "reserv",
+     "disponib",
+     "libre",
+     "fechas",
+     "contratar",
+     "whatsapp"
+    ],
+    "ca": [
+     "reserv",
+     "disponib",
+     "lliure",
+     "dates",
+     "whatsapp"
+    ],
+    "en": [
+     "book",
+     "reserv",
+     "availab",
+     "dates",
+     "whatsapp"
+    ],
+    "fr": [
+     "reserv",
+     "disponib",
+     "libre",
+     "dates",
+     "whatsapp"
+    ]
+   },
+   "a": {
+    "es": "Para reservar escribe por WhatsApp al 603 525 956 o a info@cazorlarural.com. Este asistente no confirma disponibilidad ni reservas.",
+    "ca": "Per reservar escriu per WhatsApp al 603 525 956 o a info@cazorlarural.com. Aquest assistent no confirma disponibilitat ni reserves.",
+    "en": "To book, message them on WhatsApp at 603 525 956 or email info@cazorlarural.com. This assistant does not confirm availability or bookings.",
+    "fr": "Pour réserver, écrivez sur WhatsApp au 603 525 956 ou à info@cazorlarural.com. Cet assistant ne confirme ni disponibilité ni réservation."
+   },
+   "sources": [
+    {
+     "url": "https://www.cazorlarural.com/reservas.html",
+     "quote": "Envíanos un mensaje de WhatsApp"
+    },
+    {
+     "url": "https://www.cazorlarural.com/contacto/",
+     "quote": "info@cazorlarural.com"
+    }
+   ],
+   "cta": true
+  },
+  {
+   "id": "K09",
+   "topic": "horario de atención",
+   "keys": {
+    "es": [
+     "horario",
+     "atencion",
+     " hora",
+     "atienden",
+     "llamar",
+     "telefono",
+     "abierto"
+    ],
+    "ca": [
+     "horari",
+     "atencio",
+     " hora",
+     "atenen",
+     "trucar",
+     "telefon",
+     "obert"
+    ],
+    "en": [
+     "hours",
+     "opening",
+     " time",
+     "phone",
+     " call",
+     "schedule",
+     "reception"
+    ],
+    "fr": [
+     "horaire",
+     "heure",
+     "accueil",
+     "appeler",
+     "telephone",
+     "ouvert"
+    ]
+   },
+   "a": {
+    "es": "Te atienden en horario de invierno de 10:00 a 14:00 o de 16:00 a 19:00, y en horario de verano de 10:00 a 14:00 o de 17:00 a 20:00. Teléfono: 603 525 956.",
+    "ca": "T'atenen en horari d'hivern de 10:00 a 14:00 o de 16:00 a 19:00, i en horari d'estiu de 10:00 a 14:00 o de 17:00 a 20:00. Telèfon: 603 525 956.",
+    "en": "They answer in winter hours from 10:00 to 14:00 or 16:00 to 19:00, and summer hours from 10:00 to 14:00 or 17:00 to 20:00. Phone: 603 525 956.",
+    "fr": "Ils répondent en horaire d'hiver de 10 h à 14 h ou de 16 h à 19 h, et en horaire d'été de 10 h à 14 h ou de 17 h à 20 h. Téléphone : 603 525 956."
+   },
+   "sources": [
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadalentin/",
+     "quote": "Horario de invierno: de 10:00h a 14:00h o de 16:00h a 19:00h Horario de verano: de 10:00h a 14:00h o de 17:00h a 20:00h"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K10",
+   "topic": "ubicación y contacto",
+   "keys": {
+    "es": [
+     "donde",
+     "direccion",
+     "ubicacion",
+     "llegar",
+     "mapa",
+     "situad",
+     "quesada",
+     "contacto",
+     "correo",
+     "email",
+     " calle"
+    ],
+    "ca": [
+     " on ",
+     "adreca",
+     "ubicacio",
+     "arribar",
+     "mapa",
+     "situad",
+     "quesada",
+     "contacte",
+     "correu",
+     "email",
+     "carrer"
+    ],
+    "en": [
+     "where",
+     "address",
+     "location",
+     "get there",
+     " map",
+     "located",
+     "quesada",
+     "contact",
+     "email",
+     " mail",
+     "street"
+    ],
+    "fr": [
+     " ou ",
+     "adresse",
+     "situ",
+     "acces",
+     "venir",
+     "carte",
+     "quesada",
+     "contact",
+     "email",
+     " mail",
+     " rue "
+    ]
+   },
+   "a": {
+    "es": "Estamos en Quesada (Jaén), en el casco antiguo y a las puertas del Parque Natural. Según cada ficha: Guadalentín, Guadiana, Guadalquivir y Gualay, en Calle Adentro nº15; Cabañas, Gilillo, Rayal y Villalta, en Calle Adentro nº44 (23480). Teléfono 603 525 956 · info@cazorlarural.com.",
+    "ca": "Som a Quesada (Jaén), al nucli antic i a les portes del Parc Natural. Segons cada fitxa: Guadalentín, Guadiana, Guadalquivir i Gualay, al carrer Adentro nº15; Cabañas, Gilillo, Rayal i Villalta, al carrer Adentro nº44 (23480). Telèfon 603 525 956 · info@cazorlarural.com.",
+    "en": "We are in Quesada (Jaén), in the old town and at the gateway to the Natural Park. According to each cottage page: Guadalentín, Guadiana, Guadalquivir and Gualay are at Calle Adentro 15; Cabañas, Gilillo, Rayal and Villalta at Calle Adentro 44 (23480). Phone 603 525 956 · info@cazorlarural.com.",
+    "fr": "Nous sommes à Quesada (Jaén), dans la vieille ville et aux portes du Parc naturel. Selon chaque fiche : Guadalentín, Guadiana, Guadalquivir et Gualay, Calle Adentro nº15 ; Cabañas, Gilillo, Rayal et Villalta, Calle Adentro nº44 (23480). Téléphone 603 525 956 · info@cazorlarural.com."
+   },
+   "sources": [
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-guadalentin/",
+     "quote": "Calle Adentro nº15, 23480 Quesada (Jaén)"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-gualay/",
+     "quote": "Calle Adentro nº15, 23480 Quesada (Jaén)"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-cabanas-2/",
+     "quote": "Calle Adentro nº44, 23480 Quesada (Jaén)"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-rayal/",
+     "quote": "Calle Adentro nº44, 23480 Quesada (Jaén)"
+    },
+    {
+     "url": "https://www.cazorlarural.com/contacto/",
+     "quote": "603 525 956"
+    },
+    {
+     "url": "https://www.cazorlarural.com/contacto/",
+     "quote": "info@cazorlarural.com"
+    },
+    {
+     "url": "https://www.cazorlarural.com/",
+     "quote": "Nuestras casas rurales se encuentran en Quesada"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K11",
+   "topic": "qué hacer",
+   "keys": {
+    "es": [
+     "hacer",
+     "actividad",
+     "ruta",
+     "senderismo",
+     "estrellas",
+     "aceite",
+     "zona",
+     "visitar",
+     " ver ",
+     "cerca",
+     "borosa",
+     "tiscar"
+    ],
+    "ca": [
+     " fer ",
+     "activitat",
+     "ruta",
+     "senderisme",
+     "estrelles",
+     " oli ",
+     "zona",
+     "visitar",
+     " veure ",
+     "a prop",
+     "borosa",
+     "tiscar"
+    ],
+    "en": [
+     "things to do",
+     "activit",
+     "hike",
+     "hiking",
+     " star",
+     "olive",
+     " area",
+     "visit",
+     " see ",
+     "nearby",
+     "borosa",
+     "tiscar"
+    ],
+    "fr": [
+     " faire ",
+     "activit",
+     "randonn",
+     "etoile",
+     "huile",
+     "region",
+     "visiter",
+     " voir ",
+     "proximite",
+     "borosa",
+     "tiscar"
+    ]
+   },
+   "a": {
+    "es": "Senderismo, astroturismo, oleoturismo y turismo activo en el Parque Natural. Lugares que su web destaca: Santuario de Tíscar, Cueva del Agua, Río Borosa, Cerrada del Utrero y Puente de las Herrerías; y los pueblos de Cazorla, La Iruela y Pozo Alcón.",
+    "ca": "Senderisme, astroturisme, oleoturisme i turisme actiu al Parc Natural. Llocs que la seva web destaca: Santuario de Tíscar, Cueva del Agua, Río Borosa, Cerrada del Utrero i Puente de las Herrerías; i els pobles de Cazorla, La Iruela i Pozo Alcón.",
+    "en": "Hiking, stargazing, olive-oil tourism and outdoor activities in the Natural Park. Places their website highlights: Santuario de Tíscar, Cueva del Agua, Río Borosa, Cerrada del Utrero and Puente de las Herrerías; and the towns of Cazorla, La Iruela and Pozo Alcón.",
+    "fr": "Randonnée, astrotourisme, oléotourisme et activités de plein air dans le Parc naturel. Lieux mis en avant par leur site : Santuario de Tíscar, Cueva del Agua, Río Borosa, Cerrada del Utrero et Puente de las Herrerías ; et les villages de Cazorla, La Iruela et Pozo Alcón."
+   },
+   "sources": [
+    {
+     "url": "https://www.cazorlarural.com/",
+     "quote": "senderismo, turismo activo , gastronomía local y visitas culturales"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casas-rurales-en-la-naturaleza-en-cazorla/",
+     "quote": "Santuario de Tíscar"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casas-rurales-en-la-naturaleza-en-cazorla/",
+     "quote": "Cueva del Agua"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casas-rurales-en-la-naturaleza-en-cazorla/",
+     "quote": "Cerrada del Utrero"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casas-rurales-en-la-naturaleza-en-cazorla/",
+     "quote": "Puente de las Herrerías"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casas-rurales-en-la-naturaleza-en-cazorla/",
+     "quote": "Río Borosa"
+    },
+    {
+     "url": "https://www.cazorlarural.com/que-ver-y-hacer/",
+     "quote": "muy cerca de Cazorla , La Iruela y Pozo Alcón"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K12",
+   "topic": "registro",
+   "keys": {
+    "es": [
+     "registro",
+     "licencia",
+     "legal",
+     "autorizad"
+    ],
+    "ca": [
+     "registre",
+     "llicencia",
+     "legal",
+     "autoritzat"
+    ],
+    "en": [
+     "registration",
+     "licence",
+     "license",
+     "legal",
+     "registered",
+     "registry"
+    ],
+    "fr": [
+     "registre",
+     "licence",
+     "legal",
+     "autorise",
+     "enregistrement"
+    ]
+   },
+   "a": {
+    "es": "El pie de su web indica como números de registro de actividades turísticas CR/JA/00337 y CR/JA/00338; las fichas de Cabañas, Gilillo, Rayal y Villalta indican además A/JA/00217.",
+    "ca": "El peu de la seva web indica com a números de registre d'activitats turístiques CR/JA/00337 i CR/JA/00338; les fitxes de Cabañas, Gilillo, Rayal i Villalta indiquen a més A/JA/00217.",
+    "en": "The footer of their website gives the tourist-activity registration numbers CR/JA/00337 and CR/JA/00338; the Cabañas, Gilillo, Rayal and Villalta pages also give A/JA/00217.",
+    "fr": "Le pied de page de leur site indique les numéros d'enregistrement d'activités touristiques CR/JA/00337 et CR/JA/00338 ; les fiches de Cabañas, Gilillo, Rayal et Villalta indiquent aussi A/JA/00217."
+   },
+   "sources": [
+    {
+     "url": "https://www.cazorlarural.com/",
+     "quote": "Nº de registro CR/JA/00337 - CR/JA/00338"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-rayal/",
+     "quote": "Nº de registro: A/JA/00217"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-villalta/",
+     "quote": "Nº de registro: A/JA/00217"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-gilillo/",
+     "quote": "Nº de registro: A/JA/00217"
+    },
+    {
+     "url": "https://www.cazorlarural.com/casa-rural-cabanas-2/",
+     "quote": "Nº de registro: A/JA/00217"
+    }
+   ],
+   "cta": false
+  }
+ ]
+}

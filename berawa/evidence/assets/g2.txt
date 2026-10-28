@@ -1,0 +1,8 @@
+Ficha de Pexels leída el 2026-10-28T10:13:23+01:00 (herramienta de lectura web)
+URL: https://www.pexels.com/photo/milky-way-over-the-mountains-27414212/
+Título: Milky way over the mountains
+Autor mostrado: Fahrettin Turgut
+Descripción de la ficha: A breathtaking view of the Milky Way galaxy over a silhouetted landscape at night.
+Licencia: Pexels License (https://www.pexels.com/license/): uso gratuito, atribución no necesaria, modificación permitida; prohibido sugerir aval de personas/marcas, vender copias sin modificar y usar como marca.
+Descarga: https://images.pexels.com/photos/27414212/pexels-photo-27414212.jpeg?w=2000 (HTTP 200; sha256 del original 7b83ed31af0d29f6d8a3e102fae9cc6e72716b938e415ee9ba4ea98fb3301872 verificado con una segunda descarga idéntica)
+Imagen ilustrativa: no muestra el establecimiento.

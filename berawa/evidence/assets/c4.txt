@@ -1,0 +1,8 @@
+Ficha de Pexels leída el 2026-10-28T10:13:23+01:00 (herramienta de lectura web)
+URL: https://www.pexels.com/photo/living-room-in-old-house-15884799/
+Título: Living Room in Old House
+Autor mostrado: Jan van der Wolf
+Descripción de la ficha: Charming rustic living room with wooden beams and stone walls, perfect for cozy gatherings.
+Licencia: Pexels License (https://www.pexels.com/license/): uso gratuito, atribución no necesaria, modificación permitida; prohibido sugerir aval de personas/marcas, vender copias sin modificar y usar como marca.
+Descarga: https://images.pexels.com/photos/15884799/pexels-photo-15884799.jpeg?w=2000 (HTTP 200; sha256 del original 00529c6689a30f61aeba5f474238297a7c853520952bd2db5d84f4bdc2409b8e verificado con una segunda descarga idéntica)
+Imagen ilustrativa: no muestra el establecimiento.

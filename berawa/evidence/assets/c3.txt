@@ -1,0 +1,8 @@
+Ficha de Pexels leída el 2026-10-28T10:13:23+01:00 (herramienta de lectura web)
+URL: https://www.pexels.com/photo/a-bed-in-a-hotel-15699339/
+Título: A Bed in a Hotel
+Autor mostrado: hello aesthe
+Descripción de la ficha: Cozy rustic bedroom with stone wall, vintage chandelier, and blue bedding.
+Licencia: Pexels License (https://www.pexels.com/license/): uso gratuito, atribución no necesaria, modificación permitida; prohibido sugerir aval de personas/marcas, vender copias sin modificar y usar como marca.
+Descarga: https://images.pexels.com/photos/15699339/pexels-photo-15699339.jpeg?w=2000 (HTTP 200; sha256 del original 2ee13c09769aa6ccf94cfa0f89bc53b860c308783258df21272b3cb27ef1deea verificado con una segunda descarga idéntica)
+Imagen ilustrativa: no muestra el establecimiento.

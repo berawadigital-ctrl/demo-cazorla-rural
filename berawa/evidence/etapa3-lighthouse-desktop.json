@@ -1,0 +1,27 @@
+{
+ "lighthouse": "13.6.0",
+ "url": "http://127.0.0.1:8801/",
+ "form_factor": "desktop",
+ "fetchTime": "2026-10-28T09:07:57.037Z",
+ "scores": {
+  "performance": 100,
+  "accessibility": 100,
+  "best-practices": 100,
+  "seo": 66
+ },
+ "audits_no_perfectos": {
+  "is-crawlable": {
+   "score": 0,
+   "title": "Page is blocked from indexing"
+  },
+  "forced-reflow-insight": {
+   "score": 0,
+   "title": "Forced reflow"
+  },
+  "lcp-discovery-insight": {
+   "score": 0,
+   "title": "LCP request discovery"
+  }
+ },
+ "nota": "SEO<100 solo por is-crawlable: la demo lleva noindex a propósito (C13 de la checklist de Codex)."
+}
