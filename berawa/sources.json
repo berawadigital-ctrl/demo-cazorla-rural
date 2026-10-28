@@ -1,0 +1,73 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.cazorlarural.com/",
+ "read_at": "2026-10-27T07:09:00+01:00",
+ "method": "Texto de cada página leído de la web pública el 27/10/2026; guardado en evidence/source-text-2026-10-27.json. cazorlarural.com no respondió desde el entorno de trabajo el 28/10/2026, por eso no se ha podido releer.",
+ "pages": [
+  {
+   "url": "https://www.cazorlarural.com/",
+   "sha256": "d8781ba559013fd67e87852832d24ac5ca89476c164935a9ffab082be655ca6e",
+   "chars": 5877
+  },
+  {
+   "url": "https://www.cazorlarural.com/casa-rural-cabanas-2/",
+   "sha256": "55dfea6439d2c394ff57823efd3b56053b2bb80fcebb73052b0848360b266247",
+   "chars": 9418
+  },
+  {
+   "url": "https://www.cazorlarural.com/casa-rural-gilillo/",
+   "sha256": "e93df0ff63ca61294ca931bcadf6ac15428b5bac066d0c9a2088a421d02b8dbf",
+   "chars": 3837
+  },
+  {
+   "url": "https://www.cazorlarural.com/casa-rural-guadalentin/",
+   "sha256": "fefe2c2555aed174553ffcb67e9e1758ff10333078c49786e13f1c2b7978f888",
+   "chars": 3526
+  },
+  {
+   "url": "https://www.cazorlarural.com/casa-rural-guadiana/",
+   "sha256": "d3f81844580a603013afaba2175291dde288bd6657ed1104773ac6ff34b67ab8",
+   "chars": 4386
+  },
+  {
+   "url": "https://www.cazorlarural.com/casa-rural-gualay/",
+   "sha256": "e21f4d7378487ab5b45350d53c74a5add98d2a71de128f2480af1df7c18a3d06",
+   "chars": 4454
+  },
+  {
+   "url": "https://www.cazorlarural.com/casa-rural-rayal/",
+   "sha256": "dee8ab24aed7db97719787fa5e395ffb5ed17c727dccfe08fe1a45f981630afc",
+   "chars": 4627
+  },
+  {
+   "url": "https://www.cazorlarural.com/casa-rural-villalta/",
+   "sha256": "1e14a013693fe35df0b97f0f5c39ef7e4b982474338a9946abf38a7536e4edc3",
+   "chars": 4356
+  },
+  {
+   "url": "https://www.cazorlarural.com/casas-rurales-en-la-naturaleza-en-cazorla/",
+   "sha256": "eca7dc2878025bacdf0d104388d5e5b18c438fd2b01903faea14e40e8f880852",
+   "chars": 11501
+  },
+  {
+   "url": "https://www.cazorlarural.com/contacto/",
+   "sha256": "1fe6a9a72c8a073c7b6a59c9e5ef56612915a0ea2c5dd2c938fe64b2735e3446",
+   "chars": 1370
+  },
+  {
+   "url": "https://www.cazorlarural.com/guadalquivir/",
+   "sha256": "a08310076bfd1e5e53a84c7e448acc01cda6fa6f06c141dbaf18be923caa70ec",
+   "chars": 3816
+  },
+  {
+   "url": "https://www.cazorlarural.com/que-ver-y-hacer/",
+   "sha256": "0b7a721f3b0ce8a7980ade0a9cf66d43fae2f3e46a7ce4e7fe6121786c83c8b8",
+   "chars": 5247
+  },
+  {
+   "url": "https://www.cazorlarural.com/reservas.html",
+   "sha256": "0ca440e5ce4dfe01b5f0cda2733278135329242b63e5825170a0de79ec3283e0",
+   "chars": 424
+  }
+ ]
+}
