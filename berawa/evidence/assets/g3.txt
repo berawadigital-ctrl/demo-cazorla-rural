@@ -1,0 +1,8 @@
+Ficha de Pexels leída el 2026-10-28T10:13:23+01:00 (herramienta de lectura web)
+URL: https://www.pexels.com/photo/scenic-andalusian-olive-groves-landscape-29749216/
+Título: Scenic Andalusian Olive Groves Landscape
+Autor mostrado: Quentin Martinez
+Descripción de la ficha: Expansive olive groves in the Andalusian countryside under a bright sky.
+Licencia: Pexels License (https://www.pexels.com/license/): uso gratuito, atribución no necesaria, modificación permitida; prohibido sugerir aval de personas/marcas, vender copias sin modificar y usar como marca.
+Descarga: https://images.pexels.com/photos/29749216/pexels-photo-29749216.jpeg?w=2000 (HTTP 200; sha256 del original 2cc7175b205e64a7d57566697cb9d70d35b7715f2f7b7c80e777ea31d5998c43 verificado con una segunda descarga idéntica)
+Imagen ilustrativa: no muestra el establecimiento.

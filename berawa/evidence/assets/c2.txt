@@ -1,0 +1,8 @@
+Ficha de Pexels leída el 2026-10-28T10:13:23+01:00 (herramienta de lectura web)
+URL: https://www.pexels.com/photo/a-romantic-setting-in-the-bathroom-4099354/
+Título: A Romantic Setting In The Bathroom
+Autor mostrado: Taryn Elliott
+Descripción de la ficha: Relax in a cozy bathtub with candles, tea, and a book for a serene evening.
+Licencia: Pexels License (https://www.pexels.com/license/): uso gratuito, atribución no necesaria, modificación permitida; prohibido sugerir aval de personas/marcas, vender copias sin modificar y usar como marca.
+Descarga: https://images.pexels.com/photos/4099354/pexels-photo-4099354.jpeg?w=2000 (HTTP 200; sha256 del original 53de95284fe80572dc812404e2cd35c882cc3cfa40d641f2b0feff0ca2c9fd84 verificado con una segunda descarga idéntica)
+Imagen ilustrativa: no muestra el establecimiento.

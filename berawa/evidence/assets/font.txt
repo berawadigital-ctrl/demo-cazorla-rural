@@ -1,0 +1,1 @@
+Cormorant (Christian Thalmann, Catharsis Fonts), SIL OFL 1.1: uso comercial y redistribución permitidos. Fichero fonts/cormorant.woff2 ya presente en el repositorio original de la demo (commit eff126a). Licencia: https://openfontlicense.org/

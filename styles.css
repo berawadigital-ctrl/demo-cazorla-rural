@@ -58,7 +58,6 @@ footer{background:#1f1d1a;color:#d9d3c9;padding:44px 0 90px;font-size:.92rem}foo
 @media(max-width:860px){.links{display:none}.brand{font-size:1.15rem;overflow:hidden;text-overflow:ellipsis;min-width:0}.nav{gap:8px}.langs button{padding:5px 5px;font-size:.72rem}.intro,.loc{grid-template-columns:1fr}.gal{grid-template-columns:repeat(2,1fr)}.nav .btn{display:none}
 .sticky{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:25;padding:10px 84px 10px 12px;background:rgba(251,248,243,.97);border-top:1px solid var(--line)}.sticky .btn{flex:1}
 section{padding:64px 0}.intro img{aspect-ratio:4/3}}
-header{inset:0 0 auto}
 
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .skip{position:absolute;left:8px;top:-80px;z-index:100;background:#fff;color:#111;padding:10px 14px;border-radius:8px;font-weight:600}
@@ -75,6 +74,7 @@ main:focus{outline:none;box-shadow:none}
 header:not(.s){background:linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,0))}
 .hero h1,.hero p,.hero .kick,.brand,.links a,.langs button{text-shadow:0 1px 3px rgba(0,0,0,.55)}
 .hero .btn.ghost{background:#1f1d1a}
+header.s{backdrop-filter:none;-webkit-backdrop-filter:none}
 header.s .brand,header.s .links a,header.s .langs button{text-shadow:none}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 @media(max-width:860px){#menub{display:inline-flex;align-items:center;justify-content:center}

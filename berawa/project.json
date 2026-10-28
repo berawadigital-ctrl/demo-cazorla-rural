@@ -1,0 +1,89 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-cazorla-rural",
+ "template_version": "webfactory-2026.10.28+fix-codex-1",
+ "created_at": "2026-10-27",
+ "updated_at": "2026-10-28T10:13:23+01:00",
+ "business": {
+  "name": "Cazorla Rural",
+  "legal_name": null,
+  "registry_ids": [
+   "CR/JA/00337",
+   "CR/JA/00338",
+   "A/JA/00217"
+  ],
+  "registry_note": "números publicados en cazorlarural.com (pie y fichas); no contrastados con el Registro de Turismo de Andalucía",
+  "url": "https://www.cazorlarural.com/",
+  "domain": "cazorlarural.com",
+  "municipality": "Quesada",
+  "province": "Jaén",
+  "address": "Calle Adentro 15 (Guadalentín, Guadiana, Guadalquivir, Gualay) y Calle Adentro 44 (Cabañas, Gilillo, Rayal, Villalta), 23480 Quesada (Jaén)",
+  "phones": [
+   "603 525 956"
+  ],
+  "emails": [
+   "info@cazorlarural.com"
+  ],
+  "sector": "alojamiento rural"
+ },
+ "rating": {
+  "value": 4.9,
+  "reviews_count": 223,
+  "source": "Google Maps (ficha «Cazorla Rural», la web de la ficha coincide)",
+  "url": "https://www.google.com/maps/place/Cazorla+Rural/@37.8468713,-3.1402777,13z",
+  "date": "2026-10-27",
+  "threshold": 4.0,
+  "note": "leída por el filtro de captación el 27/10/2026; sin hora registrada"
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "entries": 12,
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "wa",
+  "url": "https://wa.me/34603525956",
+  "source": "número WhatsApp publicado en cazorlarural.com/reservas.html"
+ },
+ "audit_original": {
+  "url": "https://www.cazorlarural.com/",
+  "date": "2026-10-27",
+  "veredicto": "MALA (54 puntos)",
+  "lighthouse": {
+   "performance": 51,
+   "accessibility": 85,
+   "best_practices": 57,
+   "seo": 85,
+   "lcp_s": 34.7,
+   "peso_mb": 8.5
+  },
+  "tool": "filtro_mala_web.py (Lighthouse móvil)"
+ },
+ "codex": {
+  "audits": [
+   {
+    "sha": "73d9c7c",
+    "dictamen": "NO_APROBADA",
+    "fecha": "2026-10-28",
+    "fuente": "mensaje de Juan 28/10 9:41; el informe de Codex no se ha entregado a Grok: la corrección se ha hecho con los cinco bloques indicados por Juan y el contrato del repo"
+   }
+  ]
+ },
+ "lighthouse_min": {
+  "performance": 85,
+  "accessibility": 95,
+  "best_practices": 90
+ },
+ "preview_url": "https://berawadigital-ctrl.github.io/demo-cazorla-rural/",
+ "changes_log": "ver CORRECCIONES.md (bloques 1-5: Codex; bloque V1.0: aparte)"
+}

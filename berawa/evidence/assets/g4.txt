@@ -1,0 +1,8 @@
+Ficha de Pexels leída el 2026-10-28T10:13:23+01:00 (herramienta de lectura web)
+URL: https://www.pexels.com/photo/scenic-view-of-castle-and-valley-in-jaen-spain-35340111/
+Título: Scenic View of Castle and Valley in Jaén, Spain
+Autor mostrado: Emilio Sánchez Hernández
+Descripción de la ficha: Breathtaking view of the landscape from an ancient castle in Jaén, Andalucía, Spain.
+Licencia: Pexels License (https://www.pexels.com/license/): uso gratuito, atribución no necesaria, modificación permitida; prohibido sugerir aval de personas/marcas, vender copias sin modificar y usar como marca.
+Descarga: https://images.pexels.com/photos/35340111/pexels-photo-35340111.jpeg?w=2000 (HTTP 200; sha256 del original 9567bfa5dfa9cdafd85a39d9d655e92c8c3cd557762b54a9cf1c824a374c73ac verificado con una segunda descarga idéntica)
+Imagen ilustrativa: no muestra el establecimiento.

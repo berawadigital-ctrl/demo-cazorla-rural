@@ -23,6 +23,7 @@ main:focus{outline:none;box-shadow:none}
 header:not(.s){background:linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,0))}
 .hero h1,.hero p,.hero .kick,.brand,.links a,.langs button{text-shadow:0 1px 3px rgba(0,0,0,.55)}
 .hero .btn.ghost{background:#1f1d1a}
+header.s{backdrop-filter:none;-webkit-backdrop-filter:none}
 header.s .brand,header.s .links a,header.s .langs button{text-shadow:none}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 @media(max-width:860px){#menub{display:inline-flex;align-items:center;justify-content:center}
