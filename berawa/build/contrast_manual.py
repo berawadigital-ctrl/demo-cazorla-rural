@@ -14,7 +14,7 @@ with sync_playwright() as p:
     b=p.chromium.launch(executable_path='/usr/bin/google-chrome',args=['--no-proxy-server','--no-sandbox'])
     for vp,(w,h) in dict(desktop=(1280,900),movil=(375,800)).items():
       for l in ['es','ca','en','fr']:
-        pg=b.new_page(viewport=dict(width=w,height=h));pg.goto(f'{url}?lang={l}',wait_until='load');pg.wait_for_timeout(300)
+        pg=b.new_context(viewport=dict(width=w,height=h),bypass_csp=True).new_page();pg.goto(f'{url}?lang={l}',wait_until='load');pg.wait_for_timeout(300)
         pg.add_script_tag(content=AXE)
         r=pg.evaluate("async()=>{const r=await axe.run(document,{runOnly:{type:'rule',values:['color-contrast']}});return r.incomplete.flatMap(x=>x.nodes.map(n=>n.target[0]))}")
         for sel in sorted(set(r)):

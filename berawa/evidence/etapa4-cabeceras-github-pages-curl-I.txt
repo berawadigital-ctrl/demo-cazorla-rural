@@ -1,0 +1,100 @@
+# curl -I https://berawadigital-ctrl.github.io/demo-cazorla-rural/ (2026-10-28T10:11:05+01:00)
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+last-modified: Wed, 28 Oct 2026 08:38:13 GMT
+access-control-allow-origin: *
+strict-transport-security: max-age=31556952
+etag: "6ae1b475-8949"
+expires: Wed, 28 Oct 2026 09:18:47 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 6AD0:B28F3:1329E40:157AF83:6AE1BB9E
+x-github-edge-region: iad
+accept-ranges: bytes
+age: 138
+date: Wed, 28 Oct 2026 09:11:05 GMT
+via: 1.1 varnish
+x-served-by: cache-iad-kcgs7200031-IAD
+x-cache: HIT
+x-cache-hits: 0
+x-timer: S1793178665.197654,VS0,VE1
+vary: Accept-Encoding
+x-fastly-request-id: 4af909da9f38261fc4c306ca6de01f468ce51c8c
+content-length: 35145
+
+
+# curl -I https://berawadigital-ctrl.github.io/demo-cazorla-rural/img/hero.webp
+HTTP/2 200 
+server: GitHub.com
+content-type: image/webp
+last-modified: Wed, 28 Oct 2026 08:38:13 GMT
+access-control-allow-origin: *
+strict-transport-security: max-age=31556952
+etag: "6ae1b475-289ac"
+expires: Wed, 28 Oct 2026 09:21:05 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: D910:3B8F34:123E3ED:1490C61:6AE1BC26
+x-github-edge-region: iad
+accept-ranges: bytes
+age: 0
+date: Wed, 28 Oct 2026 09:11:05 GMT
+via: 1.1 varnish
+x-served-by: cache-iad-kcgs7200085-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1793178665.266885,VS0,VE45
+vary: Accept-Encoding
+x-fastly-request-id: 87db8ead1cc7c0c839f78fdaddcfdb29eccd0e3a
+content-length: 166316
+
+
+# curl -I https://berawadigital-ctrl.github.io/demo-cazorla-rural/robots.txt
+HTTP/2 200 
+server: GitHub.com
+content-type: text/plain; charset=utf-8
+last-modified: Wed, 28 Oct 2026 08:38:13 GMT
+access-control-allow-origin: *
+strict-transport-security: max-age=31556952
+etag: "6ae1b475-1a"
+expires: Wed, 28 Oct 2026 09:21:05 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 11EC:1CCD69:AED65F:DDEC51:6AE1BC29
+x-github-edge-region: iad
+accept-ranges: bytes
+age: 0
+date: Wed, 28 Oct 2026 09:11:05 GMT
+via: 1.1 varnish
+x-served-by: cache-iad-kcgs7200068-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1793178665.382317,VS0,VE48
+vary: Accept-Encoding
+x-fastly-request-id: 0b1ac4c7e2419789d42024e31de2c2ee13957418
+content-length: 26
+
+# curl -I https://berawadigital-ctrl.github.io/demo-cazorla-rural/no-existe (404)
+HTTP/2 404 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+access-control-allow-origin: *
+strict-transport-security: max-age=31556952
+etag: "6abcf5c5-24a3"
+content-security-policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'
+x-proxy-cache: MISS
+x-github-request-id: 55BA:1C2379:164EED0:185CF73:6AE1BC29
+x-github-edge-region: iad
+accept-ranges: bytes
+age: 0
+date: Wed, 28 Oct 2026 09:11:05 GMT
+via: 1.1 varnish
+x-served-by: cache-iad-kcgs7200076-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1793178665.456812,VS0,VE20
+vary: Accept-Encoding
+x-fastly-request-id: c70a8df451f6b57729d6d63dda2af5f3bf4bf54a
+content-length: 9379
+

@@ -18,7 +18,7 @@ with sync_playwright() as p:
     b=p.chromium.launch(executable_path='/usr/bin/google-chrome',args=['--no-proxy-server','--no-sandbox'])
     for vp,(w,h) in dict(desktop=(1280,900),movil=(375,800)).items():
         for l in ['es','ca','en','fr']:
-            ctx=b.new_context(viewport=dict(width=w,height=h),locale=l);pg=ctx.new_page()
+            ctx=b.new_context(viewport=dict(width=w,height=h),locale=l,bypass_csp=True);pg=ctx.new_page()
             pg.goto(f'{url}?lang={l}',wait_until='load');pg.wait_for_timeout(300)
             pg.evaluate("window.scrollTo(0,document.body.scrollHeight)");pg.wait_for_timeout(200);pg.evaluate("window.scrollTo(0,0)")
             axe(pg,f'{vp}/{l}/inicio')
@@ -29,7 +29,7 @@ with sync_playwright() as p:
             ctx.close()
     # teclado
     for vp,(w,h) in dict(desktop=(1280,900),movil=(375,800)).items():
-        ctx=b.new_context(viewport=dict(width=w,height=h));pg=ctx.new_page();pg.goto(url+'?lang=es',wait_until='load');pg.wait_for_timeout(300)
+        ctx=b.new_context(viewport=dict(width=w,height=h),bypass_csp=True);pg=ctx.new_page();pg.goto(url+'?lang=es',wait_until='load');pg.wait_for_timeout(300)
         stops=[]
         for i in range(60):
             pg.keyboard.press('Tab')
