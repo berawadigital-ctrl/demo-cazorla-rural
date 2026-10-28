@@ -1,0 +1,35 @@
+{
+ "lighthouse": "13.6.0",
+ "url": "http://127.0.0.1:8801/",
+ "form_factor": "mobile",
+ "fetchTime": "2026-10-28T09:07:46.319Z",
+ "scores": {
+  "performance": 100,
+  "accessibility": 100,
+  "best-practices": 100,
+  "seo": 66
+ },
+ "audits_no_perfectos": {
+  "first-contentful-paint": {
+   "score": 0.99,
+   "title": "First Contentful Paint"
+  },
+  "largest-contentful-paint": {
+   "score": 0.99,
+   "title": "Largest Contentful Paint"
+  },
+  "is-crawlable": {
+   "score": 0,
+   "title": "Page is blocked from indexing"
+  },
+  "forced-reflow-insight": {
+   "score": 0,
+   "title": "Forced reflow"
+  },
+  "lcp-discovery-insight": {
+   "score": 0,
+   "title": "LCP request discovery"
+  }
+ },
+ "nota": "SEO<100 solo por is-crawlable: la demo lleva noindex a propósito (C13 de la checklist de Codex)."
+}

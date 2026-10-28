@@ -19,6 +19,11 @@ main:focus{outline:none;box-shadow:none}
 #menub{display:none;background:none;border:1.5px solid currentColor;color:inherit;border-radius:8px;width:40px;height:40px;font-size:20px;cursor:pointer}
 #chatb,#chat header button,#qs button,#chat form button{min-width:36px;min-height:36px}
 .card h3 a{color:inherit}
+.hero:after{background:linear-gradient(180deg,rgba(0,0,0,.62) 0,rgba(0,0,0,.5) 35%,rgba(0,0,0,.8) 100%)}
+header:not(.s){background:linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,0))}
+.hero h1,.hero p,.hero .kick,.brand,.links a,.langs button{text-shadow:0 1px 3px rgba(0,0,0,.55)}
+.hero .btn.ghost{background:#1f1d1a}
+header.s .brand,header.s .links a,header.s .langs button{text-shadow:none}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 @media(max-width:860px){#menub{display:inline-flex;align-items:center;justify-content:center}
 .links.o{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:var(--bg);color:var(--ink);padding:10px 20px 16px;gap:4px;box-shadow:0 8px 20px rgba(0,0,0,.15)}
@@ -67,7 +72,7 @@ function menuSet(o){nav.classList.toggle('o',o);mb.setAttribute('aria-expanded',
 mb.onclick=()=>menuSet(!nav.classList.contains('o'));
 nav.addEventListener('click',e=>{if(e.target.closest('a'))menuSet(false)});
 addEventListener('keydown',e=>{if(e.key==='Escape'){if(chat.classList.contains('o'))chatSet(false);else if(nav.classList.contains('o')){menuSet(false);mb.focus()}}});"""
-A11Y_SET="""$$('[data-aria]').forEach(e=>e.setAttribute('aria-label',t[e.dataset.aria]));$$('.langs button').forEach(b=>b.setAttribute('aria-label',t.lang_names[b.dataset.l]));$$('[data-rn]').forEach(e=>e.setAttribute('aria-label',t.room_cta.replace(/ →$/,'')+' · '+t['room'+e.dataset.rn+'_n']));"""
+A11Y_SET="""$$('[data-aria]').forEach(e=>e.setAttribute('aria-label',t[e.dataset.aria]));$$('.langs button').forEach(b=>b.setAttribute('aria-label',b.dataset.l.toUpperCase()+' · '+t.lang_names[b.dataset.l]));$$('[data-rn]').forEach(e=>e.setAttribute('aria-label',t.room_cta.replace(/ →$/,'')+' · '+t['room'+e.dataset.rn+'_n']));"""
 
 CSP="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; object-src 'none'; media-src 'none'; frame-src 'none'; manifest-src 'none'"
 
@@ -128,16 +133,18 @@ def build(d,kb,out,imgs,alts,stage):
     menub='<button type="button" id="menub" aria-expanded="false" aria-controls="nav" data-aria="menu" aria-label="Menú">☰</button>' if a11y else ''
     navattr=' id="nav"'+(' data-aria="nav_label" aria-label="Navegación principal"' if a11y else '')
     chatb=('<button type="button" id="chatb" aria-expanded="false" aria-controls="chat" data-aria="chat_open" aria-label="Abrir asistente">💬</button>' if a11y else '<button id="chatb" aria-label="Chat">💬</button>')
-    chatd=(f'<div id="chat" role="dialog" aria-labelledby="chat_h"><header><span id="chat_h" data-t="chat_t">{html.escape(es["chat_t"])}</span><button type="button" id="chatx" data-aria="chat_close" aria-label="Cerrar asistente">×</button></header><div id="msgs" role="log" aria-live="polite"></div><div id="qs"></div><form><label class="sr" for="q" data-t="chat_label">{html.escape(es["chat_label"])}</label><input id="q" autocomplete="off"><button type="submit" data-t="send">{html.escape(es["send"])}</button></form></div>' if a11y else
+    chatd=(f'<div id="chat" role="dialog" aria-labelledby="chat_h"><div class="chh"><span id="chat_h" data-t="chat_t">{html.escape(es["chat_t"])}</span><button type="button" id="chatx" data-aria="chat_close" aria-label="Cerrar asistente">×</button></div><div id="msgs" role="log" aria-live="polite"></div><div id="qs"></div><form><label class="sr" for="q" data-t="chat_label">{html.escape(es["chat_label"])}</label><input id="q" autocomplete="off"><button type="submit" data-t="send">{html.escape(es["send"])}</button></form></div>' if a11y else
         f'<div id="chat" role="dialog" aria-label="Chat"><header><span data-t="chat_t">{html.escape(es["chat_t"])}</span><button id="chatx" aria-label="Cerrar">×</button></header><div id="msgs"></div><div id="qs"></div><form><input id="q" autocomplete="off"><button data-t="send">{html.escape(es["send"])}</button></form></div>')
     langgrp=f'<div class="langs" role="group"'+(' data-aria="langs_label" aria-label="Idioma"' if a11y else ' aria-label="Idioma / Language"')+f'>{langb}</div>'
+    sticky=f'<div class="sticky">{blink("book_long")}</div>'
+    aside_o='<aside data-aria="chat_t" aria-label="Asistente">' if a11y else '';aside_c='</aside>' if a11y else ''
     illspan=f'<span class="ill" data-t="ill">{html.escape(es["ill"])}</span>' if v1 else ''
     sty_pad='' if sec else ' style="padding:0"'
     maps=f'https://www.google.com/maps/search/?api=1&amp;query={up.quote(d["maps"])}'
     head_extra=(f'<meta http-equiv="Content-Security-Policy" content="{CSP}"><meta name="referrer" content="no-referrer">' if sec else '')
     css=CSS_BASE%dict(ac=d['ac'],ac2=d['ac2_a11y'] if a11y else d['ac2'])
     if not v1: css+=CSS_NONOTICE
-    if a11y: css+=CSS_A11Y
+    if a11y: css=css.replace('#chat header','#chat .chh')+CSS_A11Y
     if sec: css+=CSS_SEC.replace('.btn.ghost.ac-t','.btn.ghost.ac-t')
     css_tag='<link rel="stylesheet" href="styles.css">' if sec else f'<style>{css}</style>'
     # ---- JS
@@ -151,8 +158,8 @@ def build(d,kb,out,imgs,alts,stage):
 {head_extra}<title>{html.escape(es["title"])}</title><meta name="robots" content="noindex,nofollow"><link rel="icon" href="data:,"><meta name="description" content="{html.escape(es["hero_s"])}">
 <link rel="preload" href="fonts/cormorant.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" as="image" href="img/{imgs["hero"]}-m.webp" imagesrcset="img/{imgs["hero"]}-m.webp 800w, img/{imgs["hero"]}.webp 1600w" imagesizes="100vw">
 {css_tag}</head><body>
-{skip}{notice}
-<header><div class="wrap nav"><a class="brand" href="#top">{html.escape(d["name"])}</a><nav class="links"{navattr}><a href="#rooms" data-t="nav_rooms">{html.escape(es["nav_rooms"])}</a><a href="#services" data-t="nav_svc">{html.escape(es["nav_svc"])}</a><a href="#gallery" data-t="nav_gal">{html.escape(es["nav_gal"])}</a><a href="#contact" data-t="nav_loc">{html.escape(es["nav_loc"])}</a></nav>
+{skip}{notice if not a11y else ''}
+<header>{notice if a11y else ''}<div class="wrap nav"><a class="brand" href="#top">{html.escape(d["name"])}</a><nav class="links"{navattr}><a href="#rooms" data-t="nav_rooms">{html.escape(es["nav_rooms"])}</a><a href="#services" data-t="nav_svc">{html.escape(es["nav_svc"])}</a><a href="#gallery" data-t="nav_gal">{html.escape(es["nav_gal"])}</a><a href="#contact" data-t="nav_loc">{html.escape(es["nav_loc"])}</a></nav>
 {langgrp}{menub}{blink("book")}</div></header>
 <main id="top"{' tabindex="-1"' if a11y else ''}><section class="hero{" mt0" if sec else ""}"{sty_pad}>{img(imgs["hero"],eager=True)}<div class="wrap">{tt("hero_k","div","kick")}<h1 data-t="hero_t">{html.escape(es["hero_t"])}</h1><p data-t="hero_s">{html.escape(es["hero_s"])}</p>
 <div class="cta">{blink("book_long")}<a class="btn ghost" href="#rooms" data-t="see_rooms">{html.escape(es["see_rooms"])}</a></div></div>{illspan}</section>
@@ -162,11 +169,10 @@ def build(d,kb,out,imgs,alts,stage):
 <section class="alt" id="gallery"><div class="wrap"><h2 data-t="gal_t">{html.escape(es["gal_t"])}</h2><div class="gal">{gal}</div></div></section>
 <section><div class="wrap"><h2 data-t="around_t">{html.escape(es["around_t"])}</h2><p class="sub" data-t="around_s">{html.escape(es["around_s"])}</p><ul class="chips">{around}</ul></div></section>
 <section id="contact"><div class="wrap loc"><div><h2 data-t="loc_t">{html.escape(es["loc_t"])}</h2><p data-t="loc_p">{html.escape(es["loc_p"])}</p><p>{ghost}</p></div>
-<div class="box"><h3 data-t="contact_t">{html.escape(es["contact_t"])}</h3><p>{html.escape(d["address"])}</p><p>{phones}</p><p>{mails}</p><p class="{"mt18" if sec else ""}"{"" if sec else ' style="margin-top:18px"'}>{blink("book_long")}</p></div></div></section></main>
+<div class="box"><h3 data-t="contact_t">{html.escape(es["contact_t"])}</h3><p>{html.escape(d["address"])}</p><p>{phones}</p><p>{mails}</p><p class="{"mt18" if sec else ""}"{"" if sec else ' style="margin-top:18px"'}>{blink("book_long")}</p></div></div></section>{sticky if a11y else ''}</main>
 <footer><div class="wrap"><strong>{html.escape(d["name"])}</strong><br>{html.escape(d["address"])} · {phones} · {mails}
 <div class="demo"><strong data-t="notice">{html.escape(es["notice"])}</strong> · <span data-t="foot">{html.escape(es["foot"])}</span></div></div></footer>
-<div class="sticky">{blink("book_long")}</div>
-{chatb}{chatd}
+{'' if a11y else sticky}{aside_o}{chatb}{chatd}{aside_c}
 {js_tag}</body></html>'''
     open(out+'/index.html','w').write(page)
     open(out+'/robots.txt','w').write('User-agent: *\nDisallow: /\n')
