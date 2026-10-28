@@ -5,7 +5,7 @@ Todo se ejecuta **desde un clon normal del repositorio**: los scripts resuelven 
 ## Dependencias (solo para las comprobaciones)
 ```
 python3 -m venv .venv && . .venv/bin/activate        # opcional
-pip install -r berawa/build/requirements.txt          # playwright + Pillow
+pip install -r berawa/build/requirements.txt          # playwright >=1.60,<2 (probado con 1.60.0 y 1.64.1) + Pillow
 playwright install chromium                           # navegador que usa Playwright
 (cd berawa/build && npm install)                      # axe-core 4.14.0 (package-lock.json incluido)
 ```

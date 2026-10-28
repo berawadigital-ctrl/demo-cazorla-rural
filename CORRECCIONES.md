@@ -86,3 +86,7 @@ Dictamen de Codex sobre ese SHA: **CORREGIR**, sin P0/P1, controles C01–C16 en
 - Los scripts de **generación** de `finalize_cazorla.py` no son reproducibles desde el clon por diseño: necesitan las fotos originales de Pexels (no están en el repo); lo dice el README y el script termina con un mensaje claro si falta `BERAWA_RAW`. No afecta a ninguna comprobación.
 - Las pruebas del clon se hicieron con el Chromium de Playwright (headless shell 156); las de las etapas 1-6 con Chrome del sistema. No se han repetido en Safari ni Firefox.
 - C03 (licencias) y C16 (Lighthouse) siguen como los marcó Codex en «no verificado»: integridad y trazabilidad local, no dictamen jurídico; Lighthouse sobre servidor local, no sobre Pages.
+
+## Ronda Codex 2 (SHA auditado 60c22ba)
+
+- F-001 (C15): requirements.txt fijaba playwright==1.64.1, no disponible en el índice del auditor (máx. 1.60.0). Ahora `playwright>=1.60,<2` y `Pillow>=10,<14`. Verificado en venv limpio con playwright 1.60.0: `run_checks.py --file` 8/8 OK.
